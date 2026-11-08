@@ -1,0 +1,49 @@
+# 语料与成品不入库
+# 本 skill 只发规则，不发原著正文。请自行准备语料，放在下面这些位置即可。
+
+# 原始语料 / 转换后的全文
+龙族-原文素材/
+龙族/
+语料/
+corpus/
+*.txt
+龙族*.md
+
+# 本地构建产物（段落索引、窗口取样、中间统计、逐字核验输出）
+.longzu-build/
+build/
+*.log
+*.tmp
+w[0-9].txt
+tq[0-9]*.txt
+[dv]f[0-9]*.ps1
+fx[0-9]*.ps1
+k[0-9]*.ps1
+v[0-9]*.ps1
+recalc*.ps1
+stats.ps1
+chapmap.txt
+titles_*.txt
+openings.txt
+tithit*.txt
+quotes.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# 依赖与临时目录
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# 个人配置
+.env
+.env.*
+*.local.md
