@@ -37,8 +37,10 @@
 
 ```
 longzu/
-├── SKILL.md                  # 入口：使用时机 / 七步写作流程 / 62 项自检 / 崩坏修法表
+├── SKILL.md                  # 入口：何时用 / 七步写作流程 / 62 项自检 / 崩坏修法表
 ├── README.md                 # 本文件
+├── LICENSE.md                # 许可条款：规则与统计部分 CC BY-NC-SA 4.0
+├── .gitignore                # 语料、构建中间产物、系统文件不入库
 └── references/
     ├── style.md              # 六维度 28 条：视角、句式、意象、对话、人物、情节
     ├── structure.md          # 情节结构：五段式、单章模板、高潮五拍、悬念三层、人物弧线
@@ -127,6 +129,7 @@ cp -r longzu ~/.claude/skills/
 ## 许可
 
 - `SKILL.md`、`README.md` 及 `references/` 中的**规则与统计部分**：CC BY-NC-SA 4.0
+详见`LICENSE.md`
 
 ---
 
