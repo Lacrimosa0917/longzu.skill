@@ -70,7 +70,7 @@ cp -r longzu ~/.dsh/skills/
 cp -r longzu ~/.claude/skills/
 ```
 
-或者更简单，直接将仓库地址**https://github.com/Lacrimosa0917/longzu.skill**发送给agent，让他给你安装。
+或者更简单，直接将仓库地址 **https://github.com/Lacrimosa0917/longzu.skill** 发送给agent，让他给你安装。
 
 装好后，在提示词里写："按江南的风格写一章""这段像不像龙族""帮我起个章名"时，agent 会自行加载 `SKILL.md`，并按需读 `references/` 里的对应文件。
 
