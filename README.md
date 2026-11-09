@@ -2,6 +2,8 @@
 
 希望这个skill可以帮助你实现想象中的文字。
 
+![version](https://img.shields.io/badge/version-1.4.1-green) ![License](https://img.shields.io/badge/License-MIT-orange) ![made_with](https://img.shields.io/badge/made_with-DeepSeek-blue) 
+
 >**非官方，非授权。以 MIT 许可发布，可自由使用与商用；不包含原著正文，原著的著作权归江南及出版方。**
 
 > **公开分发说明**： `references/` 分发的版本移除了原文素材。若有需要，可以在本地添加语料并维护。
