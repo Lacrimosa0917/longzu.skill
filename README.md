@@ -49,20 +49,22 @@ longzu/
     ├── structure.md          # 情节结构 17 节：五段式、单章模板、高潮五拍、悬念三层、人物弧线
     ├── voice.md              # 手感层 32 条：整体氛围、用词、真实感、心理、宏大热血、脏话、烂话
     ├── title.md              # 章节标题 19 条：命名五型、长度分布、标题与正文的关系
-    └── flashback.md          # 插叙 25 条：六种进入、四种长度、四种回来、四种功能、五条边界
+    ├── flashback.md          # 插叙 25 条：六种进入、四种长度、四种回来、四种功能、五条边界
+    └── humanizer.md          # 语言层清理：引用 op7418/Humanizer-zh 的 31 条模式摘要与四条优先级
 ```
 
 公开版的文件规模（实测，去空白字符计）：
 
 | 文件 | 行数 | 字数 | 要点数 |
 | --- | ---: | ---: | ---: |
-| `SKILL.md` | 163 | 4,506 | 七步流程＋62 项自检 |
+| `SKILL.md` | 167 | 4,924 | 七步流程＋62 项自检 |
 | `references/style.md` | 229 | 5,482 | 28 |
 | `references/structure.md` | 266 | 5,141 | 17 节 |
 | `references/voice.md` | 390 | 10,642 | 32 |
 | `references/title.md` | 156 | 6,987 | 19 |
 | `references/flashback.md` | 211 | 5,879 | 25 |
-| `references/` 合计 | 1,252 | 34,131 | 121 |
+| `references/humanizer.md` | 126 | 3,648 | 31 条模式 |
+| `references/` 合计 | 1,378 | 37,779 | 152 |
 
 ---
 
@@ -190,9 +192,23 @@ cp -r longzu ~/.claude/skills/
 
 ---
 
+## 引用的第三方技能
+
+`references/humanizer.md` 是对 [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) 的规则摘要，用于初稿写完之后做语言层清理（空话、重复、模板化表达）。
+
+- 上游仓库：<https://github.com/op7418/humanizer-zh>
+- 作者：[@op7418](https://github.com/op7418)（歸藏）
+- 上游许可：MIT
+- 本仓库的改动：删去原文的改写前后对照示例与教学样例，只保留四条优先级、文体差异、四步流程、文件保护、31 条模式的一句话说明、交付前六问；另加一节《用在《龙族》仿写上的注意事项》，说明哪些模式在仿写稿里要慎用（短句独立成段、排比、破折号、四字词面等），因为它们是本 skill 刻意保留的风格特征。
+
+本节英文摘要：`references/humanizer.md` is a condensed summary of the rules in [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) (MIT, by @op7418), adapted for post-draft language cleanup. The upstream skill is based on blader/humanizer v3.0.0, Humanizer-zh PR 39, and hardikpandya/stop-slop.
+
+---
+
 ## 许可
 
 - `SKILL.md`、`README.md` 及 `references/` 中的**规则与统计部分**：CC BY-NC-SA 4.0。
+- `references/humanizer.md` 摘要自 [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh)，该上游以 MIT 许可发布，其规则部分的著作权归原作者。
 
 **版权归原作者及出版方所有。** 本仓库不包含原著正文，不提供下载，禁止用于商业用途。
 
@@ -213,4 +229,5 @@ cp -r longzu ~/.claude/skills/
 
 - 作家江南（杨治），《龙族》的作者。给我一个感动与充满幻想的少年时光。
 - DeepSeek，创作本skill使用的大模型。AI让很多想象可以成为现实。
+- @op7418。humanizer-zh的创作者。
 - 所有的创作者。希望这个skill可以帮助到所有人。
