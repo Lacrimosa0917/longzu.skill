@@ -240,5 +240,5 @@ cp -r longzu ~/.claude/skills/
 
 - 作家江南（杨治），《龙族》的作者。给我一个感动与充满幻想的少年时光。
 - DeepSeek，创作本skill使用的大模型。AI让很多想象可以成为现实。
-- @op7418，humanizer-zh的创作者。
+- [@op7418](https://github.com/op7418)（歸藏），humanizer-zh的创作者。
 - 所有的创作者，希望这个skill可以帮助到所有人。
