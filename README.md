@@ -2,7 +2,8 @@
 
 希望这个skill可以帮助你实现想象中的文字。
 
-**非官方，非授权，仅用于写作辅助与参考，禁止用于商业用途**
+>**非官方，非授权。以 MIT 许可发布，可自由使用与商用；不包含原著正文，原著的著作权归江南及出版方。**
+
 > **公开分发说明**： `references/` 分发的版本移除了原文素材。若有需要，可以在本地添加语料并维护。
 
 ---
@@ -44,7 +45,7 @@
 longzu/
 ├── SKILL.md                  # 入口
 ├── README.md                 # 本文件
-├── LICENSE.md                # 许可条款：规则与统计部分 CC BY-NC-SA 4.0
+├── LICENSE                   # MIT 许可
 ├── CHANGELOG.md              # 版本更新日志
 ├── .gitignore
 └── references/               # 规则与统计，不含原文
@@ -218,12 +219,14 @@ cp -r longzu ~/.claude/skills/
 
 ## 许可
 
-- `SKILL.md`、`README.md` 及 `references/` 中的**规则与统计部分**：CC BY-NC-SA 4.0。
-- `references/humanizer.md` 摘要自 [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh)，该上游以 MIT 许可发布，其规则部分的著作权归原作者。
+本仓库以 **MIT** 许可发布。你可以自由使用、修改、分发，包括商业用途，只需保留版权声明与许可声明。
 
-**版权归原作者及出版方所有。** 本仓库不包含原著正文，不提供下载，禁止用于商业用途。
+- 授权范围：`SKILL.md`、`README.md`、`CHANGELOG.md`、`references/` 下的全部规则条目、验收判据、统计表格与结构模板。
+- 不含：《龙族》原著正文及其片段，著作权归江南（杨治）及出版方。
+- 不含：`references/passages/quotes.md`，该文件由使用者本地自建，本仓库不分发。
+- 第三方：`references/humanizer.md` 摘要自 [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh)（MIT），规则著作权归原作者。
 
-详见`LICENSE.md`。
+详见 [`LICENSE`](LICENSE)。
 
 ---
 

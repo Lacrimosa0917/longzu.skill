@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2026 Lacrimosa0917
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 适用范围说明 / Scope
+
+上述 MIT 许可适用于本仓库中的全部原创内容，包括 `SKILL.md`、`README.md`、
+`CHANGELOG.md`、`LICENSE`，以及 `references/` 目录下的规则条目、验收判据、
+统计表格与结构模板。
+
+The MIT License above covers all original content in this repository: `SKILL.md`,
+`README.md`, `CHANGELOG.md`, `LICENSE`, and everything under `references/`.
+
+**不在授权范围内 / Not covered:**
+
+- 《龙族》原著正文及其任何片段。著作权归江南（杨治）及出版方所有，本仓库不包含此类内容。
+- `references/passages/quotes.md`。该文件由使用者本地自建，用于存放自行准备的原文段落，本仓库不分发该文件。
+- `references/humanizer.md`。该文件摘要自 [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh)，其规则著作权归原作者，以 MIT 许可发布。
+
+**第三方材料 / Third-party:**
+
+`references/humanizer.md` is a condensed summary of [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh)
+(MIT, by @op7418), which in turn derives from blader/humanizer v3.0.0,
+Humanizer-zh PR 39, and hardikpandya/stop-slop.
