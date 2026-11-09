@@ -8,9 +8,10 @@
 
 - `SKILL.md`
 - `README.md`
+- `CHANGELOG.md`
 - `LICENSE.md`（本文件）
 - `references/passages/README.md`（段落库的用法说明）
-- `references/` 中的全部文字，包括要点条目、验收判据、量化统计表、结构模板、分工表、修法表
+- `references/` 中的全部文字，包括要点条目、验收判据、量化统计表、词汇频次表、负面清单、结构模板、分工表、修法表
 
 不在授权范围内的：`references/passages/quotes.md`。该文件负责保存原文段落，由使用者本地自建，本仓库不包含该文件，也不对其作任何授权。
 
