@@ -2,7 +2,7 @@
 
 希望这个skill可以帮助你实现想象中的文字。
 
-![version](https://img.shields.io/badge/version-1.4.1-green) ![License](https://img.shields.io/badge/License-MIT-orange) ![made_with](https://img.shields.io/badge/made_with-DeepSeek-blue) 
+![version](https://img.shields.io/badge/version-1.5.0-green) ![License](https://img.shields.io/badge/License-MIT-orange) ![made_with](https://img.shields.io/badge/made_with-DeepSeek-blue) 
 
 >**非官方，非授权。以 MIT 许可发布，可自由使用与商用；不包含原著正文，原著的著作权归江南及出版方。**
 
