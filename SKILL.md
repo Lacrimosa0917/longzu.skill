@@ -25,7 +25,7 @@ description: 按江南《龙族》的文风、叙事结构与人物塑造方式�
 | `references/structure.md` | 全书骨架、单章模板、高潮五拍、悬念三层、人物四步出场 | 搭大纲时读 |
 | `references/title.md` | 章标题命名五型、长度分布、标题与正文的关系 | 起章名时读 |
 | `references/flashback.md` | 插叙六种进入、四种长度、四种回来、五条边界 | 写往事时读 |
-| `references/tells.md` | 反机器味 13 条：盲测反推出的破绽——细节可搬运、段尾同构、对白过省、情绪全外包 | 改稿第二遍扫这个 |
+| `references/tells.md` | 反机器味 15 条：盲测反推出的破绽——细节可搬运、段尾同构、对白过省、情绪全外包 | 改稿第二遍扫这个 |
 | `references/humanizer.md` | 语言层清理：31 条模板化表达模式（摘要自 op7418/humanizer-zh，MIT） | 最后一遍去 AI 味 |
 | `references/passages/README.md` | 段落库用法：怎么用自己手上的原文建一份，按类型找段 | 改不动时读 |
 
