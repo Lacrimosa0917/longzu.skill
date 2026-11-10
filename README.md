@@ -59,6 +59,7 @@ longzu/
     ├── structure.md          # 情节结构：17 节
     ├── title.md              # 章节标题：19 条
     ├── flashback.md          # 插叙：25 条
+    ├── tells.md              # 反机器味：26 条，三轮盲测反推的破绽
     ├── passages/             # 参考段落库
     │   └── README.md         # 段落库的使用说明（原文需要自建）
     └── humanizer.md          # 语言层清理：31 条模式（摘自 op7418/humanizer-zh）
